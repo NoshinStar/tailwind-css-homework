@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3 - Responsive Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-pink-50 min-h-screen">
+
+    <nav class="bg-white border-b border-pink-100 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6">
+
+            <input type="checkbox" id="menu-toggle" class="peer hidden" />
+
+            <div class="flex justify-between items-center py-3">
+
+                <!--LOGO-->
+                <a href="#home" class="font-serif-heading text-2xl font-bold text-gray-900">
+                    Neura<span class="text-pink-500">Learn</span>
+                </a>
+
+                <!--DESKTOP MENU-->
+                <div class="hidden md:flex items-center gap-10">
+                    <a href="#home"
+                        class="text-gray-700 font-medium hover:text-pink-500 transition-colors duration-300">Home</a>
+                    <a href="#course"
+                        class="text-gray-700 font-medium hover:text-pink-500 transition-colors duration-300">Courses</a>
+                    <a href="#curriculam"
+                        class="text-gray-700 font-medium hover:text-pink-500 transition-colors duration-300">Curriculum</a>
+                    <a href="#about"
+                        class="text-gray-700 font-medium hover:text-pink-500 transition-colors duration-300">About</a>
+                    <a href="#contact"
+                        class="bg-pink-500 text-white font-medium px-5 py-2 rounded-lg hover:bg-pink-600 transition-colors duration-300">Enroll
+                        Now</a>
+                </div>
+
+
+                <!--HAMBURGER MENU-->
+                <label for="menu-toggle" class="md:hidden text-gray-800 text-2xl cursor-pointer select-none">
+                    ☰
+                </label>
+            </div>
+
+
+            <!--MOBILE MENU-->
+            <div class="hidden peer-checked:block md:hidden border-t border-pink-100 px-2 pb-4">
+                <a href="#home" class="block text-gray-700 font-medium py-2">Home</a>
+                <a href="#course" class="block text-gray-700 font-medium py-2">Courses</a>
+                <a href="#curriculam" class="block text-gray-700 font-medium py-2">Curriculum</a>
+                <a href="#about" class="block text-gray-700 font-medium py-2">About</a>
+                <a href="#contact" class="block text-gray-700 font-medium py-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto text-center py-24 px-6">
+
+        <h1 class="text-4xl font-bold text-pink-600 mb-4">
+            Welcome to NeuraLearn
+        </h1>
+
+        <p class="text-gray-600">
+            A structured path from your first line of code to
+            building real machine learning models — grounded in practical projects, not just theory, and paced
+            for people who have never written code before.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
