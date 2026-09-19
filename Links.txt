@@ -1,0 +1,8 @@
+GitHub Repository: https://github.com/NoshinStar/tailwind-css-homework
+
+Live Website (GitHub Pages): https://noshinstar.github.io/tailwind-css-homework/
+
+Part 1 - Typography: https://noshinstar.github.io/tailwind-css-homework/part1/typography.html
+Part 1 - Cards: https://noshinstar.github.io/tailwind-css-homework/part1/cards.html
+Part 1 - Navbar: https://noshinstar.github.io/tailwind-css-homework/part1/navbar.html
+Part 2 - Landing Page: https://noshinstar.github.io/tailwind-css-homework/part2/index.html
